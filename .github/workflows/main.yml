@@ -42,8 +42,8 @@ jobs:
         # uses: docker/login-action@f4ef78c080cd8ba55a85445d5b36e214a81df20a
         uses: docker/login-action@v2.1.0
         with:
-          usename: ${{secrets.DOCKERUB_USERNAME}}
-          password: ${{secrets.DOCKERUB_PASSWORD}}
+          usename: ${{secrets.DOCKERHUB_USERNAME}}
+          password: ${{secrets.DOCKERHUB_PASSWORD}}
         
       - name: Construção da imagem Docker
         # You may pin to the exact commit or the version.
