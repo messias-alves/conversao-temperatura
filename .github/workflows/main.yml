@@ -54,5 +54,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            messineto/aula-conversao-temperatura:v1
+            messineto/aula-conversao-temperatura:${{github.run_number}}
             messineto/aula-conversao-temperatura:latest
